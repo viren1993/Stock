@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.top-header {
+  background-color: #ffff;
+  padding: 1.2rem 0rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 2rem;
+}
+
+.account-block img {
+  height: 40px;
+}
+
+.account-block {
+  display: flex;
+}
+
+.account-block .dropdown button {
+  background-color: transparent;
+  border: 0;
+  margin-left: 16px;
+  color: #000;
+}
+
+.account-block .dropdown button:hover,
+.account-block .dropdown button:active
+.account-block .dropdown button:focus {
+  background-color: transparent;
+  border: 0;
+  color: #000;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 1px solid #e9ecef;
+  padding: 5px 18px;
+  height: 38px;
+  outline: none;
+  color: #000;
+}
+
+.searchTerm:focus{
+  color: #000;
+}
+
+.searchButton {
+  width: 46px;
+  border: 0;
+  padding: 6px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #000;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+}
+
+.wrap{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 21px;
+}
+
+
+.notification .notification-block {
+  position: relative;
+}
+
+.notification-block .notification-btn {
+  margin: 0 1.5rem;
+  background-color: transparent;
+  font-size: 18px!important;
+  padding: 0;
+  top: 0;
+  position: relative;
+}
+
+
+.notification-block .notification-btn:hover {
+  color:#0095ff;
+  font-weight: bold;
+}
+
+.notification-data {
+  position: absolute;
+  top: 60px;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #fafafa;
+}
+
+.notification-data ul {
+  list-style: none;
+  padding: 0;
+  min-width: 220px;
+}
+
+.notification-data ul li {
+  padding-bottom: 10px;
+}
+
+.treanding-section {
+  margin-bottom: 4rem;
+}
+
+.treanding-section__card-list-item {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.treanding-section_card-list-item-box-img img {
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.treanding-section_card-list-item-box-img {
+  display: flex;
+}
+
+.view_all {
+  margin-bottom: 13px;
+}
+
+.view_all a {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+}
+
+.treanding-section_card-list-item-box-title {
+  margin-left: 1rem;
+}
+
+.treanding-section_card-list-item-box-title h6 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.graph-value p {
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.graph-value {text-align: end;}
+
+.most-week-head {
+  margin-bottom: 2rem;
+}
+
+.most-week-card img {
+  height: 55px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.most-week-card {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.15);
+}
+
+.most-week {
+  margin-bottom: 4rem;
+}
+
+.most-week-card-title span {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 12px;
+}
+
+.most-week-card-price {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.transaction-item .transaction-img img {
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 8px;
+  margin-bottom: 1.25rem;
+}
+
+.transaction {
+  margin-bottom: 4rem;
+}
+
+.transaction-interest {
+  font-size: 20px;
+}
+
+.transaction-item {
+  margin-bottom: 1.25rem;
+}
+
+.App {
+  background-color: #f9f9fb;
+}
+
+.cardshadow {
+  box-shadow: 0 0 20px rgb(115 105 215 / 15%);
+}
+
+.notification-btn {
+  position: relative;
+  top: 7px;
+  right: -7px;
+}
+
+.notify {
+  width: 6px;
+  height: 6px;
+  border-radius: 30px;
+  background-color: #e3324c;
+  position: absolute;
+  right: 0;
+  top: 4px;
+  left: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .treanding-section__card-list-item {
+    margin-bottom: 1rem;
+  }
+}

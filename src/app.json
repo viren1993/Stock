@@ -1,0 +1,56 @@
+{
+  "treading":[
+    {
+      "id": "1",
+      "src": "./img/apple.png",
+      "title": "AAPL",
+      "subtitle": "Apple",
+      "price": "$10,390,00",
+      "marketupdate": "+20",
+      "chart": "./img/chart.png"
+    },
+    {
+      "id": "2",
+      "src": "./img/apple.png",
+      "title": "TSLA",
+      "subtitle": "Tesla Motars",
+      "price": "$7,390,00",
+      "marketupdate": "-12",
+      "chart": "./img/chart.png"
+    }
+  ],
+  "mostweek":[
+    {
+      "id": "1",
+      "src": "./img/apple.png",
+      "title": "ADS",
+      "subtitle": "Adidas",
+      "price": "$10,390,00",
+      "body": "20% this week"
+    },
+    {
+      "id": "2",
+      "src": "./img/apple.png",
+      "title": "SHOP",
+      "subtitle": "Adidas",
+      "price": "$10,390,00",
+      "body": "20% this week"
+    },
+    {
+      "id": "3",
+      "src": "./img/apple.png",
+      "title": "DBX",
+      "subtitle": "Adidas",
+      "price": "$10,390,00",
+      "body": "20% this week"
+    },
+    {
+      "id": "4",
+      "src": "./img/apple.png",
+      "title": "ABNB",
+      "subtitle": "Adidas",
+      "price": "$10,390,00",
+      "body": "20% this week"
+    }
+  ]
+}
